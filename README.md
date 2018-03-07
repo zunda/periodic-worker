@@ -11,3 +11,13 @@ $ heroku labs:enable runtime-dyno-metadata
 $ git push heroku master
 $ heroku ps:scale worker=1
 ```
+
+## Use
+```sh
+$ heroku logs -t
+```
+
+### Change log period
+```sh
+$ heroku config:set LOG_PERIOD=1
+```
